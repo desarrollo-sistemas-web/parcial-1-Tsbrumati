@@ -4,5 +4,12 @@
 //Complejidad: MEDIA (2 puntos)
 
 function esPar($num) {
-    // Tu código aquí
+    $numero = 0;
+    $res = $numero/$numero;
+    if ($res == 0) {
+        return true;
+    } else {
+        return false;
+    }
+
 }

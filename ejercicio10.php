@@ -5,6 +5,13 @@
 
 // 🧠 Pista: A veces los puntos suspensivos dicen mucho ...$digo ...
 
-function multiplicarNumeros() {
-    
-}
+function multiplicarNumeros(...$numeros) {
+    $res = 0;
+    foreach ($numeros as $num){
+    $res = $num;
+    }
+    foreach ($numeros as $num){
+    $res = $res * $num;
+    return $res;
+    }
+    }
