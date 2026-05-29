@@ -4,6 +4,8 @@
 //Complejidad: BAJA (1 punto)
 
 $i = 1;
-while (...) {
+while ($i<11) {
+    echo "$i . <br>";
+    $i = $i + 1;
     // Tu código aquí
 }
